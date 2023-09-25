@@ -75,12 +75,6 @@ fun DrawingCanvas() {
             Button(onClick = { lines.clear() }) {
                 Text(text = "Clear")
             }
-//            Spacer(modifier = Modifier.width(16.dp))
-//            Button(onClick = {
-//                viewModel.onEvent(MainEvent.Save(lines, canvasSize))
-//            }) {
-//                Text(text = "Save")
-//            }
         }
     }
 
